@@ -1,0 +1,22 @@
+var canvas2 = document.getElementById("myCanvas6b");
+var context = canvas2.getContext("2d");
+var canvasWidht = 400;
+var canvasHeight = 300;
+var x = 0;
+var y = 0;
+var radius = 50;
+var penColor = "black";
+var startAngle = 0 * Math.PI;
+var endAngle = 2 * Math.PI;
+var brushColor = "green";
+var lineWidth = 5;
+/* First Circle 2nd canavas */
+x = canvasWidht/2 ;
+y = canvasHeight/2;
+context.beginPath();
+context.arc(x, y, radius, startAngle, endAngle, true);
+context.lineWidth = lineWidth;
+context.strokeStyle = 'black';
+context.stroke();
+context.fillStyle = brushColor;
+context.fill();

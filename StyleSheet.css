@@ -1,0 +1,85 @@
+h1 {
+    color: #b200ff;
+}
+h2 {
+    color: #0094ff;
+}
+h3 {
+    color: #25840e;
+}
+header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px; 
+}
+nav {
+    direction: rtl;
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:right;
+    padding:5px; 
+}
+section {
+    width:350px;
+    float:right;
+    padding:10px; 
+}
+sectionB {
+    width:350px;
+    float:right;
+    padding:10px; 
+}
+sectionC {
+    width:180px;
+    float:right;
+    padding:10px; 
+}
+sectionD {
+    width:350px;
+    float:right;
+    padding:10px; 
+}
+sectionE {
+    width:300px;
+    float:right;
+    padding:10px; 
+}
+footer {
+    background-color:black;
+    color:yellow;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+  .Table
+    {
+        display: table;
+    }
+    .Title
+    {
+        display: table-caption;
+        text-align: center;
+        font-weight: bold;
+        font-size: larger;
+    }
+    .Heading
+    {
+        display: table-row;
+        font-weight: bold;
+        text-align: center;
+    }
+    .Row
+    {
+        display: table-row;
+    }
+    .Cell
+    {
+        display: table-cell;
+        border: solid;
+        border-width: thin;
+        padding-left: 5px;
+        padding-right: 5px;
+    }

@@ -1,0 +1,36 @@
+var canvasWidth = 500;
+var canvasHeight = 500;
+var x = 0;
+var y = 0;
+var rectWidth=300;
+var rectHeight=300;
+var brush="red";
+var pen = "black";
+var lineWidth = 1;
+var canvas = document.getElementById("myCanvas3a");
+var context = canvas.getContext("2d");
+/* First squre  */
+x = (canvasWidth - rectWidth) / 2;
+y = (canvasHeight - rectHeight) / 2;
+context.beginPath();
+context.rect(x, y, rectWidth, rectHeight);
+context.fillStyle = brush;
+context.fill();
+context.lineWidth = lineWidth;
+context.strokeStyle = pen;
+context.stroke();
+/* Second squre  */
+rectWidth=200;
+rectHeight=200;
+x = (canvasWidth - rectWidth) / 2;
+y = (canvasHeight - rectHeight) / 2;
+brush = "yellow";
+context.beginPath();
+context.rect(x, y, rectWidth, rectHeight);
+context.fillStyle = brush;
+context.fill();
+context.lineWidth = lineWidth;
+context.strokeStyle = pen;
+context.stroke();
+var canvas2 = document.getElementById("myCanvas3b");
+var context = canvas2.getContext("2d");

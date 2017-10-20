@@ -1,0 +1,10 @@
+init();
+drawHouse();
+drawWindows(110, 220, 30, 30);
+drawWindows(110, 140, 30, 30);
+drawWindows(170, 140, 30, 30);
+drawWindows(240, 140, 40, 30);
+drawWindows(300, 140, 40, 30);
+drawWindows(360, 140, 30, 30);
+drawWindows(240, 220, 50, 30);
+drawWindows(320, 220, 50, 30);
